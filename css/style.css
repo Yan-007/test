@@ -61,6 +61,10 @@
 }
 
 
+.container2 {
+  display: flex;
+  justify-content: space-around;
+}
 .col1, col2, col3, col4 {
-  height: 25%;
+  width: 25%;
 }
