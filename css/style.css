@@ -60,3 +60,7 @@
   color: #ffffff;
 }
 
+
+.col1, col2, col3, col4 {
+  height: 25%;
+}
