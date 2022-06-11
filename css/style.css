@@ -1,0 +1,61 @@
+/*Фон для секций*/
+
+.section:first-child {
+  background: #6784ff;
+}
+
+.section:nth-child(2) {
+  background: #edff67;
+}
+
+.section:last-child {
+  background: #76ff7c;
+}
+
+
+/*Меню*/
+.navbar {
+  min-height: 40px;
+}
+
+.nav > li > a:focus {
+  background: #fff;
+}
+.nav {
+  align-items: left;
+  align-self: left;
+  align-content: left;
+  align-tracks: left;
+  text-align: left;
+  justify-content: left;
+  justify-items: left;
+  justify-self: left;
+  justify-tracks: left;
+
+
+}
+.align-left {
+  display: flex;
+  justify-content: flex-start;
+}
+.fp-tableCell {
+  background-image: url("./../img/background.jpg");
+}
+.hi-text {
+  color: #00cc30;
+  font-size: 120px;
+}
+.accountname {
+  margin-right: 20px;
+}
+.ul1, ul2 {
+  display: flex;
+  justify-content: space-between;
+}
+.navul {
+  display: flex;
+  justify-content: space-between;
+}
+.fst {
+  color: #ffffff;
+}
